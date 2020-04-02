@@ -88,7 +88,7 @@ a:hover, a:active {
 .btn1 {
   display: inline-block;
   font-size: 14px;
-  min-width: 160px;
+  min-width: 50px;
   padding: 12px 20px;
   background: transparent;
   border: 2px solid #fff;
