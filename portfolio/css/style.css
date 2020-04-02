@@ -1039,3 +1039,19 @@ h2.resp-accordion.resp-tab-active {
 .tech-icons {
   height: 10vh;
 }
+
+.padding-bottom-intro {
+  padding-bottom: 500px
+}
+
+.marker-font {
+  font-family: 'Permanent Marker', cursive;
+}
+
+.jobs-font {
+  font-family: 'Patrick Hand', cursive;
+}
+
+.test {
+  width: 300px;
+}
