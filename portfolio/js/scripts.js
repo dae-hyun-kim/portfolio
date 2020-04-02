@@ -8,7 +8,7 @@
     /* ----------------------------------
 
     JS Active Code Index
-            
+
         01. Preloader
         02. scrollIt
         03. Add Class Reveal for Scroll to Top
@@ -22,8 +22,8 @@
         11. Horizontal Tab
         12. Child Tab
         13. Vertical Tab
-        
-    ---------------------------------- */    
+
+    ---------------------------------- */
 
 $(function() {
 
@@ -100,7 +100,7 @@ $(function() {
             lightbg.attr('src', 'img/logo-dark.png');
         }
     });
-    
+
      var windowsize = wind.width();
         if (windowsize <= 991) {
         $('.navbar-nav .nav-link').on("click", function(){
@@ -127,10 +127,7 @@ $(function() {
         transitionDuration: 2000,
         overlay: true,
             slides: [
-            { src: "img/bg-1.jpg" },
-            { src: "img/bg-2.jpg" },
-            { src: "img/bg-3.jpg" },
-            { src: "img/bg-4.jpg" },   
+            { src: "img/bg-1.jpg" }
         ]
     });
 
@@ -139,7 +136,7 @@ $(function() {
     $(window).on("load",function (){
 
         var wind = $(window);
-        
+
         // isotope
         $('.gallery').isotope({
           // options
@@ -153,7 +150,7 @@ $(function() {
     });
 
     $(document).ready(function() {
-       
+
         // Default owlCarousel
         $('.owl-carousel').owlCarousel({
             items: 1,
@@ -162,7 +159,7 @@ $(function() {
             autoplay:true,
             smartSpeed:500
         });
-           
+
     });
 
     //Horizontal Tab
