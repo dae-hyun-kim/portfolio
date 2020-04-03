@@ -1048,8 +1048,25 @@ h2.resp-accordion.resp-tab-active {
   font-family: 'Permanent Marker', cursive;
 }
 
-.jobs-font {
+.jobs-font, .tech-font {
   font-family: 'Patrick Hand', cursive;
+}
+
+.recruit-conquer-image {
+  height: 200px;
+}
+
+.daes-flowers-image {
+  height: 240px;
+}
+
+.roommates-image {
+  height: 350px;
+}
+
+.media-icon:hover {
+  cursor: pointer;
+  transform: scale(1.2);
 }
 
 .test {
