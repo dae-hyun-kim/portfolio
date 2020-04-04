@@ -1053,15 +1053,22 @@ h2.resp-accordion.resp-tab-active {
 }
 
 .recruit-conquer-image {
-  height: 200px;
+  height: 240px;
+  border: 5px solid black;
 }
 
 .daes-flowers-image {
-  height: 240px;
+  height: 250px;
+  border: 5px solid black;
 }
 
 .roommates-image {
   height: 350px;
+}
+
+.project-titles {
+  font-family: 'Permanent Marker', cursive;
+  font-size: 30px;
 }
 
 .media-icon:hover {
@@ -1071,4 +1078,14 @@ h2.resp-accordion.resp-tab-active {
 
 .test {
   width: 300px;
+}
+
+.monitor-neck {
+  height: 20px;
+  background-color: black;
+}
+
+.monitor-base {
+  height: 8px;
+  background-color: black;
 }
