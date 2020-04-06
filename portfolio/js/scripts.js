@@ -124,7 +124,7 @@ $(function() {
         shuffle: true,
         firstTransition: 'fade',
         firstTransitionDuration: 5000,
-        transitionDuration: 2000,
+        transitionDuration: 10000,
         overlay: true,
             slides: [
             { src: "img/bg-1.jpg" }
