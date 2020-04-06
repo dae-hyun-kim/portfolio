@@ -1090,3 +1090,11 @@ h2.resp-accordion.resp-tab-active {
   height: 8px;
   background-color: black;
 }
+
+.site-links {
+  font-size: 16px;
+}
+
+.site-links:hover {
+  border-bottom: 1px solid white;
+}
