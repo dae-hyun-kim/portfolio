@@ -281,8 +281,9 @@ a:hover, a:active {
       color: #fff; }
 
 .logo {
-  padding: 15px 0;
-  width: 125px; }
+  width: 125px;
+}
+
 
 /*==============================
     Header
@@ -1038,6 +1039,8 @@ h2.resp-accordion.resp-tab-active {
 
 .tech-icons {
   height: 10vh;
+  padding: 10px;
+  border-radius: 5px;
 }
 
 .padding-bottom-intro {
@@ -1079,6 +1082,14 @@ h2.resp-accordion.resp-tab-active {
 
 .test {
   width: 300px;
+}
+
+.logo-margin {
+  margin-bottom: 0;
+}
+
+.tech-icon-bg {
+  background: rgba(225, 225, 225, 0.3);
 }
 
 .monitor-neck {
