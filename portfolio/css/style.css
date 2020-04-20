@@ -1109,3 +1109,7 @@ h2.resp-accordion.resp-tab-active {
 .site-links:hover {
   border-bottom: 1px solid white;
 }
+
+.text-shadow {
+  text-shadow: 1px 1px black;
+}
