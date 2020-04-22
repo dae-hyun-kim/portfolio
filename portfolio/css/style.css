@@ -1025,6 +1025,9 @@ h2.resp-accordion.resp-tab-active {
     .header .social-links a {
       font-size: 16px; } }
 @media screen and (max-width: 767px) {
+  .float-left {
+    display: none
+  }
   .header .caption h1 {
     font-size: 32px;
     margin-top: 5px; }
@@ -1112,4 +1115,32 @@ h2.resp-accordion.resp-tab-active {
 
 .text-shadow {
   text-shadow: 1px 1px black;
+}
+
+.github-bg {
+  background: rgba(225, 225, 225, 0.2);
+}
+
+.contrib-number {
+  color: white;
+  font-size: 1.5em;
+  text-shadow: 0.2px 0.2px black;
+}
+
+.text-muted {
+  color: lightsteelblue!important;
+  text-shadow: 0.2px 0.2px black;
+}
+
+.calendar-graph text.wday, .calendar-graph text.month {
+  fill: white
+}
+
+.float-left, .float-left a {
+  color: white;
+  text-shadow: 0.2px 0.2px black;
+}
+
+.contrib-legend {
+  color: white;
 }
