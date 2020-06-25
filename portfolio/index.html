@@ -15,6 +15,8 @@
         <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
+        <script src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js"></script>
+        <link rel="stylesheet" href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css" />
     </head>
     <body id="page-top">
         <!-- Navigation-->
@@ -29,7 +31,7 @@
                     <ul class="navbar-nav ml-auto">
                         <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#about">About</a></li>
                         <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#portfolio">Projects</a></li>
-                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#contact">Contact</a></li>
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#contact">Skills</a></li>
                     </ul>
                 </div>
             </div>
@@ -144,10 +146,10 @@
         </section>
 
         <!-- Contact Section-->
-        <section class="page-section" id="contact">
+        <section class="page-section bg-beige" id="contact">
             <div class="container">
                 <!-- Contact Section Heading-->
-                <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Contact Me</h2>
+                <h2 class="page-section-heading text-center text-uppercase mb-0 navy-color">Technical Skills & Tools</h2>
                 <!-- Icon Divider-->
                 <div class="divider-custom">
                     <div class="divider-custom-line"></div>
@@ -158,39 +160,91 @@
                 <div class="row">
                     <div class="col-lg-8 mx-auto">
                         <!-- To configure the contact form email address, go to mail/contact_me.php and update the email address in the PHP file on line 19.-->
-                        <form id="contactForm" name="sentMessage" novalidate="novalidate">
-                            <div class="control-group">
-                                <div class="form-group floating-label-form-group controls mb-0 pb-2">
-                                    <label>Name</label>
-                                    <input class="form-control" id="name" type="text" placeholder="Name" required="required" data-validation-required-message="Please enter your name." />
-                                    <p class="help-block text-danger"></p>
-                                </div>
-                            </div>
-                            <div class="control-group">
-                                <div class="form-group floating-label-form-group controls mb-0 pb-2">
-                                    <label>Email Address</label>
-                                    <input class="form-control" id="email" type="email" placeholder="Email Address" required="required" data-validation-required-message="Please enter your email address." />
-                                    <p class="help-block text-danger"></p>
-                                </div>
-                            </div>
-                            <div class="control-group">
-                                <div class="form-group floating-label-form-group controls mb-0 pb-2">
-                                    <label>Phone Number</label>
-                                    <input class="form-control" id="phone" type="tel" placeholder="Phone Number" required="required" data-validation-required-message="Please enter your phone number." />
-                                    <p class="help-block text-danger"></p>
-                                </div>
-                            </div>
-                            <div class="control-group">
-                                <div class="form-group floating-label-form-group controls mb-0 pb-2">
-                                    <label>Message</label>
-                                    <textarea class="form-control" id="message" rows="5" placeholder="Message" required="required" data-validation-required-message="Please enter a message."></textarea>
-                                    <p class="help-block text-danger"></p>
-                                </div>
-                            </div>
-                            <br />
-                            <div id="success"></div>
-                            <div class="form-group"><button class="btn btn-primary btn-xl" id="sendMessageButton" type="submit">Send</button></div>
-                        </form>
+                    <div class="icon-row">
+                        <div class="m-4">
+                            <img src="../portfolio/assets/img/portfolio/html.svg" alt="HTML5" class="tech-icon">
+                            <h6 class="text-center mt-2 navy-color">HTML5</h6>
+                        </div>
+                        <div class="m-4">
+                            <img src="../portfolio/assets/img/portfolio/css.svg" alt="CSS3" class="tech-icon">
+                            <h6 class="text-center mt-2 navy-color">CSS3</h6>
+                        </div>
+                        <div class="m-4">
+                            <img src="../portfolio/assets/img/portfolio/javascript.svg" alt="JavaScript" class="tech-icon">
+                            <h6 class="text-center mt-2 navy-color">JavaScript</h6>
+                        </div>
+                        <div class="m-4">
+                            <img src="../portfolio/assets/img/portfolio/react.svg" alt="" class="tech-icon">
+                            <h6 class="text-center mt-2 navy-color">React</h6>
+                        </div>
+                        <div class="m-4">
+                            <img src="../portfolio/assets/img/portfolio/bootstrap.svg" alt="" class="tech-icon">
+                            <h6 class="text-center mt-2 navy-color">Bootstrap</h6>
+                        </div>
+                        <div class="m-4">
+                            <img src="../portfolio/assets/img/portfolio/jquery.svg" alt="jQuery" class="tech-icon">
+                            <h6 class="text-center mt-2 navy-color">jQuery</h6>
+                        </div>
+                        <div class="m-4">
+                            <img src="../portfolio/assets/img/portfolio/node.svg" alt="Node.js" class="tech-icon">
+                            <h6 class="text-center mt-2 navy-color">Node.js</h6>
+                        </div>
+                        <div class="m-4">
+                            <img src="../portfolio/assets/img/portfolio/express.svg" alt="Express" class="tech-icon">
+                            <h6 class="text-center mt-2 navy-color">Express</h6>
+                        </div>
+                        <div class="m-4">
+                            <img src="../portfolio/assets/img/portfolio/postgresql.svg" alt="PostgreSQL" class="tech-icon">
+                            <h6 class="text-center mt-2 navy-color">PostgreSQL</h6>
+                        </div>
+                        <div class="m-4">
+                            <img src="../portfolio/assets/img/portfolio/github.svg" alt="GitHub" class="tech-icon">
+                            <h6 class="text-center mt-2 navy-color">GitHub</h6>
+                        </div>
+                        <div class="m-4">
+                            <img src="../portfolio/assets/img/portfolio/babel.svg" alt="Babel" class="tech-icon">
+                            <h6 class="text-center mt-2 navy-color">Babel</h6>
+                        </div>
+                        <div class="m-4">
+                            <img src="../portfolio/assets/img/portfolio/webpack.png" alt="webpack" class="tech-icon">
+                            <h6 class="text-center mt-2 navy-color">webpack</h6>
+                        </div>
+                        <div class="m-4">
+                            <img src="../portfolio/assets/img/portfolio/npm.svg" alt="npm" class="tech-icon">
+                            <h6 class="text-center mt-2 navy-color">npm</h6>
+                        </div>
+                        <div class="m-4">
+                            <img src="../portfolio/assets/img/portfolio/vscode.svg" alt="VS Code" class="tech-icon">
+                            <h6 class="text-center mt-2 navy-color">VS Code</h6>
+                        </div>
+                        <div class="m-4">
+                            <img src="../portfolio/assets/img/portfolio/docker.svg" alt="Docker" class="tech-icon">
+                            <h6 class="text-center mt-2 navy-color">Docker</h6>
+                        </div>
+                        <div class="m-4">
+                            <img src="../portfolio/assets/img/portfolio/ubuntu.svg" alt="Ubuntu" class="tech-icon">
+                            <h6 class="text-center mt-2 navy-color">Ubuntu</h6>
+                        </div>
+                        <div class="m-4">
+                            <img src="../portfolio/assets/img/portfolio/slack.svg" alt="Slack" class="tech-icon">
+                            <h6 class="text-center mt-2 navy-color">Slack</h6>
+                        </div>
+                        <div class="m-4">
+                            <img src="../portfolio/assets/img/portfolio/figma.svg" alt="Figma" class="tech-icon">
+                            <h6 class="text-center mt-2 navy-color">Figma</h6>
+                        </div>
+                        <div class="m-4">
+                            <img src="../portfolio/assets/img/portfolio/chrome.svg" alt="Dev Tools" class="tech-icon">
+                            <h6 class="text-center mt-2 navy-color">Dev Tools</h6>
+                        </div>
+                    </div>
+                    <div class="container">
+                        <div class="calendar github-bg">
+                            <script>
+                                GitHubCalendar(".calendar", "dae-hyun-kim", { responsive: true });
+                            </script>
+                        </div>
+                    </div>
                     </div>
                 </div>
             </div>
@@ -230,7 +284,7 @@
         </footer>
         <!-- Copyright Section-->
         <div class="copyright py-4 text-center text-white">
-            <div class="container"><small>Copyright © Your Website 2020</small></div>
+            <div class="container"><small>Copyright © Dae Kim 2020</small></div>
         </div>
         <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes)-->
         <div class="scroll-to-top d-lg-none position-fixed">
