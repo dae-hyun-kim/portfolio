@@ -1,2 +1,2 @@
 # Dae Kim's Portfolio
-A portfolio landing page to showcase my knowledge and applications
+A portfolio website to showcase my knowledge and applications
